@@ -1178,7 +1178,7 @@
  *   F |[-]  N  [+]| G <-- Nozzle
  *   T |       3   | H <-- Example "3" (right+, front-)
  *     | 4         | T <-- Example "4" ( left-, front-)
- *     |    [-]    |
+ *     |    [-]    | 
  *     O-- FRONT --+
  */
 #define NOZZLE_TO_PROBE_OFFSET { 0.0, 2.25, -0.7}

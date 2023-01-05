@@ -1915,7 +1915,7 @@
   //#define EXPERIMENTAL_SCURVE // Enable this option to permit S-Curve Acceleration
 #endif
 
-// @section leveling
+// @section leveling 
 
 /**
  * Points to probe for all 3-point Leveling procedures.
