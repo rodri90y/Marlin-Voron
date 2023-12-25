@@ -418,7 +418,7 @@
   // Turn on AUTOTEMP on M104/M109 by default using proportions set here
   //#define AUTOTEMP_PROPORTIONAL
   #if ENABLED(AUTOTEMP_PROPORTIONAL)
-    #define AUTOTEMP_MIN_P      0 // (°C) Added to the target temperature
+    #define AUTOTEMP_ADVANCED_PAUSE_FEATURE      0 // (°C) Added to the target temperature
     #define AUTOTEMP_MAX_P      5 // (°C) Added to the target temperature
     #define AUTOTEMP_FACTOR_P   1 // Apply this F parameter by default (overridden by M104/M109 F)
   #endif
@@ -2389,7 +2389,7 @@
  *
  * Enable PARK_HEAD_ON_PAUSE to add the G-code M125 Pause and Park.
  */
-//#define ADVANCED_PAUSE_FEATURE
+#define ADVANCED_PAUSE_FEATURE
 #if ENABLED(ADVANCED_PAUSE_FEATURE)
   #define PAUSE_PARK_RETRACT_FEEDRATE         60  // (mm/s) Initial retract feedrate.
   #define PAUSE_PARK_RETRACT_LENGTH            2  // (mm) Initial retract.
